@@ -1,23 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>HOME </title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html>
+<head>
+<style>
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+p {
+    color: white;
+    padding: 20px;
+}
+
+.container{
+    max-width: 960;
+    padding:0 auto;
+    margin:0 auto;
+  
+}
+
+/*LOGO*/
+
+.logo{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.logo img{
+    border-radius: 0px;
+    width: 200px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/*DESCRICAO*/
+
+.descricao p{
+    margin-bottom: 0px;
+    font-size:20px;
+    color: #8c8d8f;
+    text-align: center;
+}
+
+/*LINKS*/
+
+.links{
+    padding-bottom: 200px;
+}
+
+.links a{
+    margin-bottom: 8px;
+    text-align: center;
+    display: block;
+}
+
+.links input{
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size:20px;
+    background: #bcc1c4;
+    border:0;
+    border-radius: 5px;
+}
+
+}
+
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+  <div class="logo">
+<img src="https://storage.googleapis.com/media_files_prod/uploads/gallery/59919/gallery-88656c4a8235cf0ee31522f674fb0485.jpg">
+  </div><!--logo-->
+
+  <div class="descricao">
+<p>Conecte-se com a IBNT</p>
+  </div><!--descricao-->
+
+<div class="links">
+          <a href="https://www.instagram.com/ibntoficial/"><input type="submit" value="Instagram"></a>      
+
+          <a href="https://www.youtube.com/ibntoficial"><input type="submit" value="YouTube"></a>
+        
+          <a href="https://www.facebook.com/ibntoficial"><input type="submit" value="Facebook"></a>
+
+           <a href="https://open.spotify.com/show/0Sjxn4EjGPrlISMd3sfQBe"><input type="submit" value="Spotfy"></a>
+
+           <a href="https://ibntoficial.com.br/"><input type="submit" value="Site"></a>
+        
+    </div><!--links-->
+
+  </div><!--container-->    
+
+
+</body>
 </html>
